@@ -8,8 +8,22 @@ body{
     text-align: center;
 }
 
+a{
+    &:visited{
+        color: $links ;
+    }
+    &:link{
+        color: $links;
+    }
+    &:hover{
+        color: $hover;
+    }
+}
+
 nav{
     float: left;
+    margin-left: -25px;
+    position: fixed;
 
     li{
         background-color: $flexBackground;
@@ -56,7 +70,20 @@ footer p{
     font-size: $fontSize*0.75;
 }
 
+@keyframes arrow{
+    0%{
+
+    }
+    50%{
+        height:55px;
+    }
+}
+
 .footerRightSide{
-    margin-top: -25px;
+    margin-top: -50px;
     float: right;
+    margin-bottom: 20px;
+    img:hover{
+        animation:arrow 3s ease-in-out infinite;
+    }
 }

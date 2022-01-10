@@ -5,8 +5,22 @@ body {
   text-align: center;
 }
 
+a:visited {
+  color: #0645AD;
+}
+
+a:link {
+  color: #0645AD;
+}
+
+a:hover {
+  color: #1159ce;
+}
+
 nav {
   float: left;
+  margin-left: -25px;
+  position: fixed;
 }
 
 nav li {
@@ -63,8 +77,30 @@ footer p {
   font-size: 0.75em;
 }
 
+@-webkit-keyframes arrow {
+  0% {
+  }
+  50% {
+    height: 55px;
+  }
+}
+
+@keyframes arrow {
+  0% {
+  }
+  50% {
+    height: 55px;
+  }
+}
+
 .footerRightSide {
-  margin-top: -25px;
+  margin-top: -50px;
   float: right;
+  margin-bottom: 20px;
+}
+
+.footerRightSide img:hover {
+  -webkit-animation: arrow 3s ease-in-out infinite;
+          animation: arrow 3s ease-in-out infinite;
 }
 /*# sourceMappingURL=style.css.map */
