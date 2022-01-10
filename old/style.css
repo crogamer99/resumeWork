@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(40, 39, 42);
+    color:white;
+    font-size: 18px;
+}
+
+nav{
+    margin-bottom:30px;
+}
+
+nav li{
+    width: 100px;
+    height:25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border:2px solid blue;
+}
+
+main, h1{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.mainBasicsText{
+    margin-bottom:50px
+}
+
+.mainResumeList{
+    margin-bottom: 40px;
+}
+
+.mainResume{
+    margin-bottom: 50px;
+}
+
+.mainWorkExpirience dt{
+    margin-top: 20px;
+}
+
+.mainWorkExpirience{
+    margin-bottom: 40px;
+}
+
+.mainEducationList{
+    margin-bottom: 40px;
+}
+
+.mainEducationList dd{
+    margin-bottom: 20px;
+}
+
+.mainLanguageSkills #table{
+    border:1px solid black;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#table th,
+#table tr{
+    border:1px solid black;
+}
+
+.mainPersonalList{
+    margin-bottom: 120px;
+}
+
+.footerRightSide{
+    margin-top:-50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.footerContact {
+    margin-left: 30%;
+}
+
+.footerCopyright{
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:12px;
+}
+
+#form{
+    margin-left:35%;
+}
+
+#footer2{
+    margin-top:250px
+}
+
+.title2{
+    margin-left:35%
+}
