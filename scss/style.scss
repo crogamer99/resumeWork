@@ -65,12 +65,20 @@ ul{
     list-style: none;
 }
 
-footer p{
+@mixin footerText{
     text-align: start;
     font-size: $fontSize*0.75;
 }
 
-@keyframes arrow{
+footer p{
+    @include footerText;
+}
+
+@mixin anime1($lenght, $type, $repeat){
+    animation:expand $lenght $type $repeat;
+}
+
+@keyframes expand{
     0%{
 
     }
@@ -84,6 +92,6 @@ footer p{
     float: right;
     margin-bottom: 20px;
     img:hover{
-        animation:arrow 3s ease-in-out infinite;
+        @include anime1(3s, ease-in-out, infinite);
     }
 }

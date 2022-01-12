@@ -77,7 +77,7 @@ footer p {
   font-size: 0.75em;
 }
 
-@-webkit-keyframes arrow {
+@-webkit-keyframes expand {
   0% {
   }
   50% {
@@ -85,7 +85,7 @@ footer p {
   }
 }
 
-@keyframes arrow {
+@keyframes expand {
   0% {
   }
   50% {
@@ -100,7 +100,7 @@ footer p {
 }
 
 .footerRightSide img:hover {
-  -webkit-animation: arrow 3s ease-in-out infinite;
-          animation: arrow 3s ease-in-out infinite;
+  -webkit-animation: expand 3s ease-in-out infinite;
+          animation: expand 3s ease-in-out infinite;
 }
 /*# sourceMappingURL=style.css.map */
